@@ -30,11 +30,11 @@ function draw() {
   body3.Display();
   ball.Display();
 
-  keyPressed();
+ // keyPressed();
 }
 
 function keyPressed(){
   if(keyCode===UP_ARROW){
-    Matter.Body.applyForce(ball.body,ball.body.position,{x:0.3,y:-1.6});
+    Matter.Body.applyForce(ball.body,ball.body.position,{x:90,y:-90});
   }
 }
